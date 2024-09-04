@@ -57,9 +57,9 @@ df_combined = pd.concat(dfs, ignore_index=True)
 # Aplico interpolação espacial para cada mês. Nas variáveis abaixo, você pode inserir o nome do meses de estudo. 
 month1 = 'Jan'
 month2 = 'Fev'
-mont3 = 'Mar'
+month3 = 'Mar'
 
-for month in ['Jan', 'Fev', 'Mar']:
+for month in [month1,month2,month3]:
     df_combined = interpolate_spatial(df_combined, month)
 
 # Salvar o DataFrame processado, se necessário
