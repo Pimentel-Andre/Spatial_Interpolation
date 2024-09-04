@@ -31,3 +31,17 @@ Antes de aplicar o IDW, pode ser feita a substituição direta, isto é, quando 
 No script de substituição direta, um novo arquivo .xlsx é gerado: 'df_substituicao_direta.xlsx'. 
 
 Caso a substituição direta não tenha retirado todos os valores "-1", é feita a aplicação do IDW em cima do novo arquivo gerado. Nesse script a equação é aplicada em cada estação, e espera-se que não tenha sobrado mais nenhum valor faltante. Caso falte, isso significa que nenhuma estação possuía dados válidos naquela data em específico.
+
+## Referências
+
+AGÊNCIA NACIONAL DE ÁGUAS E SANEAMENTO BÁSICO (ANA). Hidroweb está disponível para usuários(as). Portal Governo do Brasil, 2023. Disponível em: https://www.gov.br/ana/pt-br/assuntos/noticias-e-eventos/noticias/hidroweb-esta-disponivel-para-usuarios-as. Acesso em: 20 ago. 2024.
+
+JÚNIOR, J. C. da S. et al. Random forest techniques for spatial interpolation of evapotranspiration data from Brazilian’s northeast. Computers and Electronics in Agriculture, v. 166, p. 105017, 2019. ISSN 0168-1699. Disponível em: http://www.sciencedirect.com/science/article/pii/S0168169919302315. Acesso em: 19 ago. 2024.
+
+LI, J.; HEAP, A. D. Areviewofspatial interpolation methods for environmental scientists. Canberra: Geoscience Australia, 2008. OCLC: 312275544. ISBN 978-1-921498-30-5 978-1-921498-28-2.
+
+PASSOS, J. B. M. C.; LIMA, R. P. C.; DIAS, R. L. S. Análise do desempenho de diferentes potências para o interpolador IDW na bacia do rio Doce. In: XXIII Simpósio Brasileiro de Recursos Hídricos, 2019, Foz do Iguaçu - PR. Anais XXIII SBRH, 2019.
+
+SILVA, Jackscilene Nascimento; DA SILVA CAIADO, Estela; CAIADO, Marco Aurélio Costa. Escolha de parâmetro para interpolação de precipitação diária utilizando o interpolador Inverse Distance Weight (IDW). In: XX Simpósio Brasileiro de Recursos Hídricos, 2013, Bento Gonçalves.
+
+SILVA, K. R.; PAIVA, Y. G.; CECÍLIO, R. A.; PEZZOPANE, J. E. M. Avaliação de interpoladores para a espacialização de variáveis climáticas na bacia do rio Itapemirim-ES. In: Anais do 13º Simpósio Brasileiro de Sensoriamento Remoto, 2007, Florianópolis, NPE, 2007. p. 3141-3146.
