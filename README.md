@@ -27,7 +27,7 @@ Ao baixar os dados da soma de precipitação mensal do portal HidroWeb, certifiq
 Ano | Jan | Fev| Mar | Latitude | Longitude
 
 ## Aplicação de substituição direta e IDW no seu script
-Antes de aplicar o IDW, pode ser feita a substituição direta, isto é, quando houver uma estação com dados válidos para aquela(s) data(s) e todas as outras não.
+Antes de aplicar o IDW, pode ser feita a substituição direta, isto é, quando houver uma estação com dados válidos para aquela(s) data(s) e todas as outras com lacunas.
 No script de substituição direta, um novo arquivo .xlsx é gerado: 'df_substituicao_direta.xlsx'. 
 
 Caso a substituição direta não tenha retirado todos os valores "-1", é feita a aplicação do IDW em cima do novo arquivo gerado. Nesse script a equação é aplicada em cada estação, e espera-se que não tenha sobrado mais nenhum valor faltante. Caso falte, isso significa que nenhuma estação possuía dados válidos naquela data em específico.
