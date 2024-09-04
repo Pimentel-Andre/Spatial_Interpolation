@@ -24,7 +24,7 @@ Passos (2019) e Silva (2013) apontam que o expoente p de valor 2 apresenta o mel
 
 ## Estruturação de dados
 Ao baixar os dados da soma de precipitação mensal do portal HidroWeb, certifique-se de gerar uma aba para cada estação, contendo as seguintes colunas: Ano, Mês 1, Mês 2,..., Latitude, Longitude. Por exemplo, no arquivo anexado os meses de estudo foram Janeiro, Fevereiro e Março, logo o DataFrame contém as colunas:
-Ano | Janeiro | Fevereiro | Março | Latitude | Longitude
+Ano | Jan | Fev| Mar | Latitude | Longitude
 
 ## Aplicação de substituição direta e IDW no seu script
 Antes de aplicar o IDW, pode ser feita a substituição direta, isto é, quando houver uma estação com dados válidos para aquela(s) data(s) e todas as outras não.
