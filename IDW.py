@@ -62,8 +62,6 @@ month3 = 'Mar'
 for month in [month1,month2,month3]:
     df_combined = interpolate_spatial(df_combined, month)
 
-# Salvar o DataFrame processado, se necessário
+# Salvo o DataFrame processado
 df_combined.to_excel('df_interpolated_precipitacao_mensal.xlsx', index=False)
-
-# Exibir os primeiros registros do DataFrame final para verificação
 print(df_combined.head())
